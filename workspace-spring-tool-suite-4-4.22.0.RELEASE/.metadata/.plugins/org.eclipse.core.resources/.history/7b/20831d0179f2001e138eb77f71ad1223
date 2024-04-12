@@ -1,0 +1,35 @@
+package Sravya;
+
+import java.util.Scanner;
+
+public class A 
+{
+	int m1(int a)
+	{
+		System.out.println();
+	}
+	int m1(int b,int c)//method overloading
+	{
+		System.out.println();
+	}
+
+}
+public class B extends A//inheritance
+{
+	int m1(int a)//method overriding
+	{
+		Super.m1(sc.nextInt());
+		System.out.println(a);
+	}
+	boolean m2(boolean a)
+	{
+		System.out.println(a);
+	}
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		B x=new B();
+		x.m2(sc.nextBoolean());
+		x.m1(sc.nextInt());
+	}
+}

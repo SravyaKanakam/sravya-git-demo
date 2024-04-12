@@ -1,0 +1,21 @@
+package com.ibm.day2.oop;
+import java.util.*;
+
+public class ClassDemo 
+{
+	
+		double gst=18;
+		static void m1(double amount)
+		{
+			double billamount=(amount+(gst/100));
+			System.out.println("total bill is:"+billamount));
+		}
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the amount");
+		amount=sc.nextDouble();
+		m1();
+	}
+
+}

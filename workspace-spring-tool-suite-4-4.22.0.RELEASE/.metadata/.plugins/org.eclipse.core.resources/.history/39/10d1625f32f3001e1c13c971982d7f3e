@@ -1,0 +1,9 @@
+package collections;
+
+public class Abstractclass implements a
+{
+void m1(10)
+{
+	System.out.println(a);
+}
+}

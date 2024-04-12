@@ -1,0 +1,24 @@
+package Sravya;
+
+
+
+public class B extends A//inheritance
+{
+	int m1(int a)//method overriding
+	{
+		Super.m1(20);
+		System.out.println(a);
+	}
+	boolean m2(boolean a)
+	{
+		System.out.println(a);
+	}
+	public static void main(String args[])
+	{
+		
+		B x=new B();
+		x.m2(false);
+		x.m1(10);
+	}
+}
+

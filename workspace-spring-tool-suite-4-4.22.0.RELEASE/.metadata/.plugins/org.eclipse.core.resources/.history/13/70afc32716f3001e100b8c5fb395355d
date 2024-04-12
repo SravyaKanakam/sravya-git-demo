@@ -1,0 +1,18 @@
+package collections;
+import java.util.ArrayList;
+
+public class Collectiondem0 
+{
+	
+public static void main(String args[])
+{
+	ArrayList frndl=new ArrayList();
+	System.out.println(fndl.size());
+	fndl.add("sony");
+	fndl.add("hony");
+	fndl.add("pony");
+	fndl.add("kony");
+	System.out.println(fndl);
+	System.out.println(fndl.size());
+}
+}

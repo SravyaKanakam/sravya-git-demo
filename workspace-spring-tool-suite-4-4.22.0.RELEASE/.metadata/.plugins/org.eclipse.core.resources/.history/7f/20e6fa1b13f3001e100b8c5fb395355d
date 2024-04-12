@@ -1,0 +1,21 @@
+package enumb;
+
+public class EnumDemo 
+{
+	public static void main(String[] args) {
+
+//		String today = "Friday";
+//		System.out.println(today);
+//		today = "Driday"; // Wrong!
+//		System.out.println(today);
+
+		DayOfWeek today = DayOfWeek.FRIDAY;
+		System.out.println(today);
+		today = DayOfWeek.SATURDAY;
+		System.out.println(today);
+	}
+
+}
+
+
+}

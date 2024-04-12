@@ -1,0 +1,11 @@
+package collections;
+public interface a
+{
+	abstract void m1(int a);
+	
+}
+
+public class Fxn
+{
+
+}

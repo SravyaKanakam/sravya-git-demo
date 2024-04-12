@@ -1,0 +1,17 @@
+package collections;
+
+public class Abstractclass implements a
+{
+	@Override
+public int m1(int a)
+{
+	System.out.println(a);
+	return 0;
+}
+
+public static void main(String args[])
+{
+	Abstractclass c=new Abstractclass();
+	c.m1(10);
+}
+}

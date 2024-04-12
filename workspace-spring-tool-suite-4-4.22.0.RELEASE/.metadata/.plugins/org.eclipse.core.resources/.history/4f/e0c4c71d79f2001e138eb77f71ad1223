@@ -1,0 +1,16 @@
+package Sravya;
+
+import java.util.Scanner;
+
+public class A 
+{
+	int m1(int a)
+	{
+		System.out.println();
+	}
+	int m1(int b,int c)//method overloading
+	{
+		System.out.println();
+	}
+
+}
